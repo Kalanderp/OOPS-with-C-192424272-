@@ -1,0 +1,26 @@
+Fare per journey: 1001 paise (Rs 10.01)
+Times below are local elapsed milliseconds; they vary by run and machine.
+
+Journeys: 20000
+  integer paise total: 20020000
+  double repeat-add total (Rs): 200200.00000003437
+  double error (Rs): 3.437162376940e-08
+  int would overflow: no
+  measured time (ms), paise/double: 0.033/0.058
+
+Journeys: 500000
+  integer paise total: 500500000
+  double repeat-add total (Rs): 5004999.9999368684
+  double error (Rs): -6.313156336546e-05
+  int would overflow: no
+  measured time (ms), paise/double: 0.847/1.470
+
+Journeys: 3000000
+  integer paise total: 3003000000
+  double repeat-add total (Rs): 30030000.001844134
+  double error (Rs): 1.844134181738e-03
+  int would overflow: yes
+  measured time (ms), paise/double: 5.054/8.898
+
+INT_MAX: 2147483647 paise
+First repeat count whose paise sum exceeds INT_MAX: 2145339

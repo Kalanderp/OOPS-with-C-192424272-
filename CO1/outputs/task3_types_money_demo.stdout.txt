@@ -1,0 +1,10 @@
+sizeof(bool,char,int,unsigned int,long long,float,double,Zone,string,auto-long-long)=1,1,4,4,8,4,8,4,32,8 bytes
+journeys=3000000
+network_total_paise=5342400000
+network_total_rupees=53424000
+INT_MAX=2147483647
+paise_total_exceeds_INT_MAX=true (do not accumulate this in int)
+double_sum_rupees=999999.99983897537
+exact_sum_rupees=1000000
+absolute_error_rupees=-0.00016102462541311979
+can_travel_balance_10000_fare_5000=true

@@ -1,0 +1,6 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /home/ubuntu/assignment_complete/code/Task04_conversions.cpp -o /home/ubuntu/assignment_complete/bin/Task04_conversions
+EXIT: 0
+/home/ubuntu/assignment_complete/code/Task04_conversions.cpp: In function ‘int main()’:
+/home/ubuntu/assignment_complete/code/Task04_conversions.cpp:14:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+   14 |     std::cout << (s < u ? "s < u" : "s >= u") << '\n';
+      |                   ~~^~~
