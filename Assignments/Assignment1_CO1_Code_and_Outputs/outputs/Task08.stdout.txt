@@ -1,0 +1,13 @@
+Enter hour (0-23): Invalid hour text; please enter a numeric hour.
+Enter hour (0-23): 
+Enter zone (Inner/Middle/Outer): 
+Concession eligible? (0=no, 1=yes): 
+Enter card balance (whole rupees): 
+================ Journey Report ================
+Hour: 9:00 (Peak)
+Zone: Middle
+Fare:               Rs 24.00
+Starting balance:   Rs 100.00
+Status:             APPROVED
+Remaining balance:  Rs 76.00
+=================================================

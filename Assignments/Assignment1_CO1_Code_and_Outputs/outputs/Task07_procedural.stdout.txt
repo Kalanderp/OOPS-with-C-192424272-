@@ -1,0 +1,3 @@
+Fare: Rs 36.00
+Journey accepted.
+Balance: Rs 50.00
