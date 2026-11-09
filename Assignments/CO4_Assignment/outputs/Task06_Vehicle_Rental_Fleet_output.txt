@@ -1,0 +1,31 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task06_Vehicle_Rental_Fleet.cpp -o Task06_Vehicle_Rental_Fleet
+Status: PASS
+
+Bicycle BI-101 rent=accepted
+No fuel/charge record
+Charge for 2 days + 1 late day: 300.00
+Returned: yes
+
+TwoWheeler TW-202 rent=accepted
+Level: 75.00, service due: 2026-12-01
+Charge for 2 days + 1 late day: 975.00
+Returned: yes
+
+Car CA-303 rent=accepted
+Level: 60.00, service due: 2026-12-10
+Seats: 5
+Charge for 2 days + 1 late day: 4200.00
+Returned: yes
+
+ElectricCar EV-404 rent=accepted
+Level: 80.00, service due: 2026-12-15
+Seats: 5
+Battery capacity: 50.00 kWh
+Charge for 2 days + 1 late day: 5650.00
+Returned: yes
+
+ElectricBus EB-505 rent=accepted
+Seats: 30, battery: 120.00 kWh
+Charge for 2 days + 1 late day: 8340.00
+Returned: yes
+

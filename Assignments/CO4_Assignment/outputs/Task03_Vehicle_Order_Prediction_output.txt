@@ -1,0 +1,4 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task03_Vehicle_Order_Prediction.cpp -o Task03_Vehicle_Order_Prediction
+Status: PASS
+
+Vehicle Engine Car | ~Car ~Engine ~Vehicle 

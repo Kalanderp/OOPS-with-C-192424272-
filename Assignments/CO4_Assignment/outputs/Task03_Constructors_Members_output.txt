@@ -1,0 +1,9 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task03_Constructors_Members.cpp -o Task03_Constructors_Members
+Status: PASS
+
+Student construction/destruction trace:
+Address+ Person+ Course+ Student+ 
+192311001 Kavya (19) Salem-636001
+~Student ~Course ~Person ~Address 
+Vehicle construction/destruction prediction:
+Vehicle Engine Car | ~Car ~Engine ~Vehicle 

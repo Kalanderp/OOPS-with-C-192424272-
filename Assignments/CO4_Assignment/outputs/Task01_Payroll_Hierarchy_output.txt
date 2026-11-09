@@ -1,0 +1,7 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task01_Payroll_Hierarchy.cpp -o Task01_Payroll_Hierarchy
+Status: PASS
+
+Professor Anita (101): 79000.00
+LabAssistant Bala (102): 42600.00
+GuestFaculty Charan (103): 20000.00
+Total payroll: 141600.00

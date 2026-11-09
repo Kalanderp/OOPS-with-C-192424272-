@@ -1,0 +1,8 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task02_Virtual_Diamond.cpp -o Task02_Virtual_Diamond
+Status: PASS
+
+Virtual inheritance construction: Person Student Staff TA 
+Shared name: Kavya
+Person Person Composition contains two Person subobjects: Student-name / Staff-name
+sizeof(TeachingAssistant): 56
+sizeof(TAComposition): 80

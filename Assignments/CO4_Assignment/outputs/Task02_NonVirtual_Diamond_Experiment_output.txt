@@ -1,0 +1,4 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task02_NonVirtual_Diamond_Experiment.cpp -o Task02_NonVirtual_Diamond_Experiment
+Status: PASS
+
+Person Student Person Staff TA 

@@ -1,0 +1,9 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task04_Polymorphic_Accounts.cpp -o Task04_Polymorphic_Accounts
+Status: PASS
+
+3.5
+4
+Senior through base reference: 4
+Account destroyed
+SeniorAccount destroyed; history released
+Account destroyed

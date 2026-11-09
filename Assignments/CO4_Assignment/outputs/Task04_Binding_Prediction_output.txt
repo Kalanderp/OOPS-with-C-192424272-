@@ -1,0 +1,4 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task04_Binding_Prediction.cpp -o Task04_Binding_Prediction
+Status: PASS
+
+3.5 4 3.5

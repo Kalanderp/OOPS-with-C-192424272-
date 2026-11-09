@@ -1,0 +1,6 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic Task05_Cart_This_Pointer.cpp -o Task05_Cart_This_Pointer
+Status: PASS
+
+Dynamic cart total: 100
+Chained cart total: 324.00
+Highest active cart total: 300.00
