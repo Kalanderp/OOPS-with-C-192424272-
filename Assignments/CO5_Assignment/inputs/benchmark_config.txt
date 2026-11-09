@@ -1,0 +1,8 @@
+Benchmark configuration:
+- Bill counts: 1,000; 1,000,000; 10,000,000
+- Compiler: g++ 14.2.0 (environment compiler)
+- Optimisation: -O2
+- Standard: C++17
+- Exception frequencies: 0%, 1%, 50% invalid across 1,000,000 records
+- Timing: std::chrono::steady_clock, milliseconds
+- Note: timings depend on CPU, compiler, OS load and memory; rerun locally for submission evidence.

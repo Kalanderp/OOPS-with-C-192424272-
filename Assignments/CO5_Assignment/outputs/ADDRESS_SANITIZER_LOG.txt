@@ -1,0 +1,17 @@
+### Task01_Polymorphic_Hospital_Billing.cpp
+compile_exit=0
+
+run_exit=1
+==816==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.
+
+### Task02_Exceptions_and_Claim_TODO.cpp
+compile_exit=0
+
+run_exit=1
+==827==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.
+
+### Task05_Predict_Stack_Unwinding.cpp
+compile_exit=0
+
+run_exit=1
+==838==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.

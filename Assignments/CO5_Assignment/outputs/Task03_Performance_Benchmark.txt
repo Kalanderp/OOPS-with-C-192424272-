@@ -1,0 +1,6 @@
+N=1000 virtual_ms=0.003 switch_ms=0.001 variant_ms=0.001 totals_equal=1
+N=1000000 virtual_ms=3.765 switch_ms=1.125 variant_ms=1.334 totals_equal=1
+N=10000000 virtual_ms=36.431 switch_ms=12.315 variant_ms=15.488 totals_equal=1
+invalid=0% return_code_ms=0.443 exception_ms=0.344
+invalid=1% return_code_ms=0.413 exception_ms=6.769
+invalid=50% return_code_ms=0.430 exception_ms=288.648

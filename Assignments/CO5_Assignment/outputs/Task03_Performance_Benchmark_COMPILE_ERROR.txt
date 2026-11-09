@@ -1,0 +1,18 @@
+/mnt/data/CO5_Assignment5_Package/codes/Task03_Performance_Benchmark.cpp: In function ‘int main()’:
+/mnt/data/CO5_Assignment5_Package/codes/Task03_Performance_Benchmark.cpp:27:26: error: ‘unique_ptr’ is not a member of ‘std’
+   27 |         std::vector<std::unique_ptr<Base>> v; v.reserve(n);
+      |                          ^~~~~~~~~~
+/mnt/data/CO5_Assignment5_Package/codes/Task03_Performance_Benchmark.cpp:10:1: note: ‘std::unique_ptr’ is defined in header ‘<memory>’; this is probably fixable by adding ‘#include <memory>’
+    9 | #include <iomanip>
+  +++ |+#include <memory>
+   10 | 
+/mnt/data/CO5_Assignment5_Package/codes/Task03_Performance_Benchmark.cpp:27:37: error: template argument 1 is invalid
+   27 |         std::vector<std::unique_ptr<Base>> v; v.reserve(n);
+      |                                     ^~~~
+/mnt/data/CO5_Assignment5_Package/codes/Task03_Performance_Benchmark.cpp:27:37: error: template argument 2 is invalid
+/mnt/data/CO5_Assignment5_Package/codes/Task03_Performance_Benchmark.cpp:27:41: error: expected unqualified-id before ‘>’ token
+   27 |         std::vector<std::unique_ptr<Base>> v; v.reserve(n);
+      |                                         ^~
+/mnt/data/CO5_Assignment5_Package/codes/Task03_Performance_Benchmark.cpp:27:47: error: ‘v’ was not declared in this scope
+   27 |         std::vector<std::unique_ptr<Base>> v; v.reserve(n);
+      |                                               ^

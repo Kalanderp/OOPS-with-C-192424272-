@@ -1,0 +1,10 @@
+Outpatient | Ravi | Rs. 1700.00
+Inpatient | Meena | Rs. 47500.00
+Day-care | Asha | Rs. 18000.00
+Emergency | Imran | Rs. 5000.00
+Diagnostic | Leela | Rs. 7500.00
+DAY TOTAL | Rs. 79700.00
+SelfPay covers Rs. 79700.00
+Insurance covers Rs. 63760.00
+GovernmentScheme covers Rs. 76700.00
+CorporatePayer covers Rs. 55790.00

@@ -1,0 +1,62 @@
+### Task01_Polymorphic_Hospital_Billing.cpp
+compile_exit=0
+
+run_exit=0
+Outpatient | Ravi | Rs. 1700.00
+Inpatient | Meena | Rs. 47500.00
+Day-care | Asha | Rs. 18000.00
+Emergency | Imran | Rs. 5000.00
+Diagnostic | Leela | Rs. 7500.00
+DAY TOTAL | Rs. 79700.00
+SelfPay covers Rs. 79700.00
+Insurance covers Rs. 63760.00
+GovernmentScheme covers Rs. 76700.00
+CorporatePayer covers Rs. 55790.00
+
+### Task02_Exceptions_and_Claim_TODO.cpp
+compile_exit=0
+
+run_exit=0
+approved 40000
+destroyed claim
+approved audit: exceeds cover
+destroyed claim
+claim rejected: exceeds cover
+approved destroyed claim
+error: negative amount
+allocation failed: std::bad_alloc
+
+### Task03_Performance_Benchmark.cpp
+compile_exit=0
+
+run_exit=0
+N=1000 virtual_ms=0.003 switch_ms=0.001 variant_ms=0.001 totals_equal=1
+N=1000000 virtual_ms=3.765 switch_ms=1.125 variant_ms=1.334 totals_equal=1
+N=10000000 virtual_ms=36.431 switch_ms=12.315 variant_ms=15.488 totals_equal=1
+invalid=0% return_code_ms=0.443 exception_ms=0.344
+invalid=1% return_code_ms=0.413 exception_ms=6.769
+invalid=50% return_code_ms=0.430 exception_ms=288.648
+
+### Task04_Predict_Virtual_Destructor.cpp
+compile_exit=0
+
+run_exit=0
+500 ~OPBill ~Bill 
+
+### Task05_Predict_Stack_Unwinding.cpp
+compile_exit=0
+
+run_exit=0
+~f ~main caught 42
+
+### Task06_Predict_Rethrow.cpp
+compile_exit=0
+
+run_exit=0
+ok done caught negative [log too large] caught too large 
+
+### Task07_Variant_And_Extension.cpp
+compile_exit=0
+
+run_exit=0
+variant total 49200
