@@ -1,0 +1,2 @@
+Loaded 3 fares (paise): 1000 2000 3000
+Lookup complexity after startup: O(1)

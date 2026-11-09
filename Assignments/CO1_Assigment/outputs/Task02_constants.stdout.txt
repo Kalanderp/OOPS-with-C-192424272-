@@ -1,0 +1,6 @@
+Inner=1000 paise
+Middle=2000 paise
+Outer=3000 paise
+Peak surcharge=20%
+Concession=50%
+Minimum remaining=5000 paise

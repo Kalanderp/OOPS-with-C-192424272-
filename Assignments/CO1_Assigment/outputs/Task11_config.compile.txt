@@ -1,0 +1,3 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /home/ubuntu/assignment_complete/code/Task11_config.cpp -o /home/ubuntu/assignment_complete/bin/Task11_config
+EXIT: 0
+(no compiler diagnostics)

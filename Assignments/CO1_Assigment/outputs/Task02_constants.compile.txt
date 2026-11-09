@@ -1,0 +1,3 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /home/ubuntu/assignment_complete/code/Task02_constants.cpp -o /home/ubuntu/assignment_complete/bin/Task02_constants
+EXIT: 0
+(no compiler diagnostics)
