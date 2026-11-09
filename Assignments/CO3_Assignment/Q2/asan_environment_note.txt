@@ -1,0 +1,3 @@
+Deep-copy source compiled with -fsanitize=address.
+Execution could not be validated in this hosted container: ASan failed to reserve shadow memory (errno 12) after attempting to preload libasan. Re-run locally on Linux/WSL with a supported ASan runtime.
+Do not execute shallow_copy_unsafe.cpp except as a controlled sanitizer demonstration.

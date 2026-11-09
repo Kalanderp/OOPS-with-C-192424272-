@@ -1,0 +1,9 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic q4.cpp -o q4
+Compiler diagnostics:
+No warnings.
+Program output:
+Rs 200.00
+true
+carry: Rs 1.25
+negative: -Rs 1.25
+less-than: true

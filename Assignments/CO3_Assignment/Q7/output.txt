@@ -1,0 +1,10 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic q7.cpp -o q7
+Compiler diagnostics:
+No warnings.
+Program output:
+R = 10 + 0j
+L = 0 + 10j
+C = 0 - 10j
+Series impedance = 10 + 0j, |Z| = 10
+Parallel R-L impedance = 5 + 5j, |Z| = 7.07107
+Safe error: division by zero impedance

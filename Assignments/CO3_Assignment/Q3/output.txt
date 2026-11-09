@@ -1,0 +1,12 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic q3.cpp -o q3
+Compiler diagnostics:
+No warnings.
+Program output:
+Construct Stack (2x3)
+Construct Block (1x2)
+Close Block; booked=1
+Construct Heap (2x2)
+Close Heap; booked=1
+Construct ZeroRows (0x5)
+Close ZeroRows; booked=0
+Close Stack; booked=1

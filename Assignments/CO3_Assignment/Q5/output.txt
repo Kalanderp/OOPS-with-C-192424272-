@@ -1,0 +1,9 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic q5.cpp -o q5
+Compiler diagnostics:
+No warnings.
+Program output:
+00:59:59 01:00:01 01:00:01
+true true
+Track A Track C
+Error: playlist index out of range
+Error: playlist index out of range

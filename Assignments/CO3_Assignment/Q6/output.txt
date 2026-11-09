@@ -1,0 +1,9 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic q6.cpp -o q6
+Compiler diagnostics:
+No warnings.
+Program output:
+[copy] [copy] 
+message: Hello World
+true
+empty: []
+A long SMS message can be stored safely with dynamic memory.

@@ -1,0 +1,4 @@
+Assumption: char cell = 1 byte; pointer = 8 bytes; excludes allocator overhead.
+10x20: cells=200 bytes; row pointers=80 bytes; total=280 bytes; allocations=11
+100x200: cells=20000 bytes; row pointers=800 bytes; total=20800 bytes; allocations=101
+1000x2000: cells=2000000 bytes; row pointers=8000 bytes; total=2008000 bytes; allocations=1001

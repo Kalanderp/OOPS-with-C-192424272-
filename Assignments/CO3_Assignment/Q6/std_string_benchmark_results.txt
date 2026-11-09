@@ -1,0 +1,2 @@
+std::string length=100000 time_us=103
+Custom Text repeated += is O(N^2) without capacity management.

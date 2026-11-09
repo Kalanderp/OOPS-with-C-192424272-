@@ -1,0 +1,9 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic q1.cpp -o q1
+Compiler diagnostics:
+No warnings.
+Program output:
+Untitled | Unknown | copies=0
+The Alchemist | Unknown | copies=1
+Wings of Fire | A.P.J. Abdul Kalam | copies=1
+C++ Primer | Lippman | copies=5
+Rejected: copies cannot be negative

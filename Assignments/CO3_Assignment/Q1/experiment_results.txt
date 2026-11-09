@@ -1,0 +1,35 @@
+Deliberate -Wreorder experiment:
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_reorder.cpp: In constructor ‘Example::Example()’:
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_reorder.cpp:4:9: warning: ‘Example::second’ will be initialized after [-Wreorder]
+    4 |     int second;
+      |         ^~~~~~
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_reorder.cpp:3:9: warning:   ‘int Example::first’ [-Wreorder]
+    3 |     int first;
+      |         ^~~~~
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_reorder.cpp:5:5: warning:   when initialized here [-Wreorder]
+    5 |     Example() : second(2), first(second) {} // deliberately wrong list order
+      |     ^~~~~~~
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_reorder.cpp:5:34: warning: member ‘Example::second’ is used uninitialized [-Wuninitialized]
+    5 |     Example() : second(2), first(second) {} // deliberately wrong list order
+      |                                  ^~~~~~
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_reorder.cpp: In constructor ‘Example::Example()’:
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_reorder.cpp:5:34: warning: ‘*this.Example::second’ is used uninitialized [-Wuninitialized]
+    5 |     Example() : second(2), first(second) {} // deliberately wrong list order
+      |                                  ^~~~~~
+
+Missing default constructor experiment (expected compile failure):
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp: In function ‘int main()’:
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp:2:25: error: no matching function for call to ‘Book::Book()’
+    2 | int main(){ Book shelf[3]; } // expected compile error: no default constructor
+      |                         ^
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp:1:24: note: candidate: ‘Book::Book(int)’
+    1 | struct Book { explicit Book(int n) : copies(n) {} int copies; };
+      |                        ^~~~
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp:1:24: note:   candidate expects 1 argument, 0 provided
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp:1:8: note: candidate: ‘constexpr Book::Book(const Book&)’
+    1 | struct Book { explicit Book(int n) : copies(n) {} int copies; };
+      |        ^~~~
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp:1:8: note: candidate: ‘constexpr Book::Book(Book&&)’
+/mnt/data/Assignment3_CO3_CPP_Code_and_Outputs/Q1/experiment_no_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided
+
