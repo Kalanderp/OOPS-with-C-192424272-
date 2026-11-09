@@ -1,0 +1,12 @@
+Compile command: /usr/bin/g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/CO2_Assignment2_Package/Q3/q3.cpp -o /mnt/data/CO2_Assignment2_Package/Q3/q3
+
+Compiler diagnostics:
+No warnings.
+
+Program output:
+charge(2) [int grams]: 0.10
+charge(2.0f) [float promoted to double]: 100.00
+charge(2.0) [double kg]: 100.00
+charge(1500, true) [grams, express]: 115.00
+charge(1.5, false, true) [kg, insured]: 90.00
+charge(Parcel): 155.00

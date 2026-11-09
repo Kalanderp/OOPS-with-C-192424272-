@@ -1,0 +1,20 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -Wpedantic q5.cpp -o q5
+
+Compiler diagnostics:
+No warnings.
+
+Program output:
+Token prediction: 101 103 104 4
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+Function call 1:
+Visitor-1: Waiting
+Visitor-2: Waiting
+Cumulative seats issued: 3
+Function call 2:
+Visitor-1: Waiting
+Visitor-2: Waiting
+Cumulative seats issued: 3

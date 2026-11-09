@@ -1,0 +1,12 @@
+Compile command: /usr/bin/g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/CO2_Assignment2_Package/Q2/q2.cpp -o /mnt/data/CO2_Assignment2_Package/Q2/q2
+
+Compiler diagnostics:
+No warnings.
+
+Program output:
+Highest before moderation: 91
+Array after +2 moderation: 72 93 84 88 91 
+Highest as const reference: 93
+Highest as copy: 93
+Index method: index=1, updated=94
+Pointer method: 94

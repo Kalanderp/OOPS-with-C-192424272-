@@ -1,0 +1,23 @@
+Compile command: /usr/bin/g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/CO2_Assignment2_Package/Q6/q6.cpp -o /mnt/data/CO2_Assignment2_Package/Q6/q6
+
+Compiler diagnostics:
+No warnings.
+
+Program output:
+205 false
+Across noon: 2, earlier=true
+Same time: 0, earlier=false
+10M inline calls elapsed_us=32752 checksum=2050000000
+
+Optimization-level measurements:
+-O0:
+205 false
+Across noon: 2, earlier=true
+Same time: 0, earlier=false
+10M inline calls elapsed_us=29402 checksum=2050000000
+
+-O2:
+205 false
+Across noon: 2, earlier=true
+Same time: 0, earlier=false
+10M inline calls elapsed_us=5316 checksum=2050000000

@@ -1,0 +1,20 @@
+Compile command: /usr/bin/g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/CO2_Assignment2_Package/Q1/q1.cpp -o /mnt/data/CO2_Assignment2_Package/Q1/q1
+
+Compiler diagnostics:
+No warnings.
+
+Program output:
+PASSING METHODS
+By value: 45000
+By reference: 40500
+By pointer: 40500
+Return new fee (15%): 38250
+
+PREDICT THE OUTPUT PROGRAM
+1 12 13
+1 100
+16 13 6 
+
+COMPLETE THE CODE
+after call by value : 45000
+after call by reference: 40500

@@ -1,0 +1,20 @@
+Compile command: /usr/bin/g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/CO2_Assignment2_Package/Q4/q4.cpp -o /mnt/data/CO2_Assignment2_Package/Q4/q4
+
+Compiler diagnostics:
+No warnings.
+
+Program output:
+Account: SA1001
+Balance (paise): 108500
+Last 10 transactions (oldest to newest):
++100
++200
++300
++400
++500
++600
++700
++800
++900
++1000
+Final balance (paise): 108500

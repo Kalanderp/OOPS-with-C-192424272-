@@ -1,0 +1,7 @@
+/mnt/data/CO2_Assignment2_Package/Q2/dangling_reference_warning.cpp: In function ‘int& badReference()’:
+/mnt/data/CO2_Assignment2_Package/Q2/dangling_reference_warning.cpp:1:43: warning: reference to local variable ‘local’ returned [-Wreturn-local-addr]
+    1 | int& badReference() { int local=7; return local; }
+      |                                           ^~~~~
+/mnt/data/CO2_Assignment2_Package/Q2/dangling_reference_warning.cpp:1:27: note: declared here
+    1 | int& badReference() { int local=7; return local; }
+      |                           ^~~~~

@@ -1,0 +1,12 @@
+-O0
+205 false
+Across noon: 2, earlier=true
+Same time: 0, earlier=false
+10M inline calls elapsed_us=29402 checksum=2050000000
+
+-O2
+205 false
+Across noon: 2, earlier=true
+Same time: 0, earlier=false
+10M inline calls elapsed_us=5316 checksum=2050000000
+

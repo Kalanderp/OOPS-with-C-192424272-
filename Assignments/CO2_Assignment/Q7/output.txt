@@ -1,0 +1,13 @@
+Compile command: /usr/bin/g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/CO2_Assignment2_Package/Q7/q7.cpp -o /mnt/data/CO2_Assignment2_Package/Q7/q7
+
+Compiler diagnostics:
+No warnings.
+
+Program output:
+Same test: 12 insertions into capacity 10
+Shift oldest=3, count=10
+Circular oldest=3, count=10
+5M insertion benchmark (microseconds)
+Original shift: 262185
+Redesigned circular: 25758
+Both retain the latest 10 values; circular insertion uses O(1) work.
